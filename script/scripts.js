@@ -28,12 +28,6 @@ $(function () {
     countOfActiveElements: 1,
     clickCallback: function (countOfStars, countOfActiveStars, e) {
       alert('Click on ' + countOfActiveStars);
-    },
-    mouseenterCallback: function (countOfStars, countOfActiveStars, e) {
-      console.log('Mouse enter: ' + countOfStars + ' ' + countOfActiveStars);
-    },
-    mouseleaveCallback: function (countOfStars, countOfActiveStars, e) {
-      console.log('Mouse leave: ' + countOfStars + ' ' + countOfActiveStars);
     }
   });
 
@@ -48,12 +42,6 @@ $(function () {
     countOfActiveElements: 1,
     clickCallback: function (countOfStars, countOfActiveStars, e) {
       alert('Click on ' + countOfActiveStars);
-    },
-    mouseenterCallback: function (countOfStars, countOfActiveStars, e) {
-      console.log('Mouse enter: ' + countOfStars + ' ' + countOfActiveStars);
-    },
-    mouseleaveCallback: function (countOfStars, countOfActiveStars, e) {
-      console.log('Mouse leave: ' + countOfStars + ' ' + countOfActiveStars);
     }
   });
     
