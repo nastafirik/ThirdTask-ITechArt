@@ -1,0 +1,20 @@
+.heart-element {
+  position: relative;
+  background-color: red;
+  -webkit-transform: rotate(315deg);
+  -moz-transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
+  -o-transform: rotate(315deg);
+  transform: rotate(315deg);
+  display: block;
+  float: left;
+  margin-right: 11.0px;
+}
+
+.heart-element-before {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: red;
+  display: block;
+}
