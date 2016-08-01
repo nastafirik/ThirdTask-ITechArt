@@ -24,7 +24,7 @@ $(function () {
     colorActive: activeColor,
     colorInactive: inactiveColor,
     colorHover: hoverColor,
-    readOnly: false,
+    readOnly: true,
     countOfActiveElements: 1,
     clickCallback: function (countOfStars, countOfActiveStars, e) {
       alert('Click on ' + countOfActiveStars);
