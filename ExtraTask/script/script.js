@@ -1,3 +1,5 @@
+(function ($){
+    'use strict';
 $(window).load(function() {
 	$('.zoomable').hover(
 		function() {
@@ -29,30 +31,5 @@ $(window).load(function() {
 		$('.zoomable img').css({margin: "-" + iY + "px -" + iX + "px"});
  
 	});
-    
-    
-    
-    $('.zoomable').hover(
-	function() {
- 
-	}, 
-	function() {
- 
-	}
-        
-    );
-    
-       var c = $('.preload img').width() / $('.zoomable img').width();
-    
-    $('.zoomable').mousemove(function(e) {
- 
 });
-    
-    var pX = e.pageX - $(this).offset().left;
-var pY = e.pageY - $(this).offset().top;
-    
-    var iX = pX * c - pX;
-var iY = pY * c - pY;
- 
-$('.zoomable img').css({margin: "-" + iY + "px -" + iX + "px"});
-});
+});(jQuery)
